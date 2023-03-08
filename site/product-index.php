@@ -1,3 +1,11 @@
+<?php
+   require 'database.php';
+
+   $sql = "SELECT * FROM producten";
+   $result  = mysqli_query($conn,$sql);
+   $producten = mysqli_fetch_all($result,MYSQLI_ASSOC);
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -26,6 +34,7 @@
 
       <div class="featured-div">
         <div class="flex-container">
+            <?php foreach ($producten as $product): ?>
           <div class="flex-box">
             <h3>Management Intuïtie Dagen</h3>
             <p class="flex-tekst"> Praktische tools voor zelfstandig ondernemers, managers en leidinggevenden voor het
@@ -35,7 +44,7 @@
 
           <div class="flex-box">
             <h3>Intuïtiedag</h3>
-            <p class="flex-tekst"> Zondag 27 februari in Hof20 Haarlem. Krachtig leven vanuit je intuïtie. Een heerlijke
+            <p class="flex-tekst"> Zondag 27 februari in Hof 20 Haarlem. Krachtig leven vanuit je intuïtie. Een heerlijke
               dag op een fijne plek waarin je je onderdompelt in je eigen wijsheid en het contact met je intuïtie.
             </p>
           </div>
@@ -49,8 +58,7 @@
 
           <div class="flex-box">
             <h3>Individuele coaching</h3>
-            <p class="flex-tekst"> In individuele coaching sta jij centraal. Het gaat om jouw ontwikkeling en wat jij
-              nodig hebt om nieuwe stappen te zetten in je dagelijks leven.
+            <p class="flex-tekst"> 
             </p>
           </div>
 
@@ -66,6 +74,7 @@
             <h3>FROM HEAD TO HEART online cursus voor hsp</h3>
             <p class="flex-tekst">Van struggle naar acceptatie en zelfliefde, van kwetsbaarheid naar kracht. In 10
               praktische modules in je kracht met je hoogsensitiviteit, in verbinding met je hart & intuïtie. </p>
+             <?php endforeach ?>
           </div>
         </div>
 
