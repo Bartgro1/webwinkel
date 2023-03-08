@@ -13,7 +13,6 @@
 <body>
   <?php
   include 'header.php';
-  include 'footer.php';
   ?>
   <main>
     <div class="container">
@@ -112,6 +111,7 @@
         </div>
       </div>
   </main>
+ <?php include 'footer.php';?>
 
 </body>
 
