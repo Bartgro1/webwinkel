@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #e0e7da;
+    color: #3B282A;
+    font-family: "Calibri Light", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+
+}
+
+main{
+    height: 1100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+div.container{
+    margin: 0px 260px;
+}
+
+div.outer{
+    margin-left: -250px;
+}
+
+.image-1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    margin-bottom: -300px;
+}
+
+div.outer, h2{
+   width: 21em; 
+   padding-left: 300px;
+   padding-bottom: 20px;
+   text-align: center;
+   font-size: 32px;
+}
+ .hoofd-tekst{
+   width: 700px;
+   text-align: center;
+   font-size: 18px;
+   padding-left: 320px;
+
+}
+div.featured-div{  
+    height: 100px;
+    padding-left: 175px;
+}
+
+.flex-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+}
+
+.flex-box{
+    width: 200px;
+    height: 175px; 
+    background-color: white;
+    color: black;
+    font-size: 25px;
+    text-align: center;
+    margin: 10px;
+}
+
+.flex-box, h3{
+    font-size: 17px;
+    text-align: left;
+    padding-left: 2px;
+    padding-top: 5px;
+}
+
+.flex-box, flex-tekst{
+    font-size: 12.5px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+div.blogs-outer{
+    height: 250px;
+}
+
+div.blogs-outer, .image-2{
+    width: 425px;
+    padding-top: 10px;
+    padding-left: 4px; 
+    padding-bottom: 10px;
+    border-radius: 9px;
+}
+
+.featured-content{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row; 
+}
+
+
+.item-1, .featured-hoofdtekst
+{   
+    font-size: 14px;
+}
+.item1, .featured-tekst{   
+    font-size: 12px;
+}
+
+.item-2{
+    flex-basis: 200px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    height: 300px;
+    margin-left: 25px; 
+    margin-top: 10px;
+    padding-left: 20px;
+    padding-top: 10px;
+    background-color: white; 
+}
+
+.item-2, .bloglijst-header{
+     font-size: 18px;
+}
+.item-2 > .bloglijst{
+    font-size: 11.5px;
+    padding-top: 10px;
+}
+
+div.sabijn-outer, .image-3{
+     padding-top: 50px;
+     margin-bottom: -110px;
+     width: 650px; 
+     border-radius: 9px;   
+}
+
+div.sabijn-outer p{
+    font-size: 13px;
+    width: 400px; 
+    padding-left: 20px;
+    margin-top: -10px;
+} 
