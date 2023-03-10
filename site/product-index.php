@@ -24,25 +24,30 @@ $producten = mysqli_fetch_all($result, MYSQLI_ASSOC);
   ?>
   <main>
     <div class="container">
-      <div class="outer">
-        <img class="image-1" src="Images/Afbeelding.png" alt="">
-        <h2>Van hoofd naar hart & lichaam</h2>
-        <p class="hoofd-tekst"> Steeds meer mensen voelen de behoefte om meer vanuit hun hart en intuïtie te leven. Deze
+      <div class="outer-flex-container">
+        <div class="item-1">
+          <img src="Images/Afbeelding.png" alt="">
+        </div>
+        <div class="item-2">
+          <h2>Van hoofd naar hart & lichaam</h2>
+          <!--  <p class="hoofd-tekst"> Steeds meer mensen voelen de behoefte om meer vanuit hun hart en intuïtie te leven. Deze
           tijd gaat om
-          authenticiteit, teruggaan naar de basis en het creëren van het leven dat echt bij je past.</p>
-      </div>
-
-      <div class="featured-div">
-        <div class="flex-container">
-          <?php foreach ($producten as $product) : ?>
-            <div class="flex-box">
-              <h3> <?php echo $product["naam"] ?></h3>
-              <p> <?php echo $product["omschrijving"] ?> </p>
-            </div>
-          <?php endforeach ?>
+          authenticiteit, teruggaan naar de basis en het creëren van het leven dat echt bij je past.</p> -->
         </div>
       </div>
-      <!--
+    </div>
+    
+    <div class="featured-div">
+      <div class="flex-container">
+        <?php foreach ($producten as $product) : ?>
+          <div class="diensten">
+            <h3> <?php echo $product["naam"] ?></h3>
+            <p> <?php echo $product["omschrijving"] ?> </p>
+          </div>
+        <?php endforeach ?>
+      </div>
+    </div>
+    <!--
       <div class="blogs-outer">
 
         <div class="featured-content">
