@@ -23,21 +23,20 @@ $producten = mysqli_fetch_all($result, MYSQLI_ASSOC);
   include 'header.php';
   ?>
   <main>
-    <div class="container">
-      <div class="outer-flex-container">
-        <div class="item-1">
-          <img src="Images/Afbeelding.png" alt="">
-        </div>
-        <div class="item-2">
-          <h2>Van hoofd naar hart & lichaam</h2>
-          <!--  <p class="hoofd-tekst"> Steeds meer mensen voelen de behoefte om meer vanuit hun hart en intuïtie te leven. Deze
+    <div class="background-img">
+      <div class="text-block">
+        <h2> Van hoofd naar hart & lichaam </h2>
+        <p>steeds meer mensen voelen de behoefte om meer vanuit hun hart en intuïtie te leven. Deze
           tijd gaat om
-          authenticiteit, teruggaan naar de basis en het creëren van het leven dat echt bij je past.</p> -->
-        </div>
+          authenticiteit, teruggaan naar de basis en het creëren van het leven dat echt bij je past.</p>
       </div>
     </div>
-    
-    <div class="featured-div">
+    <div class="container">
+
+
+
+
+ <div class="featured-div">
       <div class="flex-container">
         <?php foreach ($producten as $product) : ?>
           <div class="diensten">
@@ -47,6 +46,15 @@ $producten = mysqli_fetch_all($result, MYSQLI_ASSOC);
         <?php endforeach ?>
       </div>
     </div>
+
+
+    </div>
+    
+    
+
+
+
+   
     <!--
       <div class="blogs-outer">
 

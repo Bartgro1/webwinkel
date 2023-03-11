@@ -1,64 +1,74 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     background-color: #e0e7da;
     color: #3B282A;
     font-family: "Calibri Light", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-    
 }
 
-main{
+main {
     height: 1100px;
     padding-top: 30px;
     padding-bottom: 30px;
 }
-div.container{
-    max-width: 960px;
-    margin:  auto;
+
+div.container {
+    width: 960;
+    margin: auto;
 }
 
-div.outer-flex-container{
-    display: flex;
-    justify-content: center;
-
+div.background-img {
+    background: url(Images/Afbeelding.png);
+    background-position: center;
+    height: 350px;
 }
 
-.item-1 img{
-    width: 1000px;
-    height: 300px;
+.text-block{
+    padding-top: 20px;
+    width: 750;
+    margin: auto;
+    padding-left: 40px;
+    text-align: center;
+}
+
+.text-block h2{  
+    width: 400px;
+    font-family: "Calibri", sans-serif;
+    text-transform: none;
+    font-size:  2.5em;
+    padding-bottom: 10px;
     
 }
 
-.item-2 h2{
-   
-
-} 
+.text-block p{
+   width: 340px;
+   font-size: 16px;
+   margin-left: 20px;
+}
  
- .hoofd-tekst{
-   width: 700px;
-   text-align: center;
-   font-size: 18px;
-   padding-left: 320px;
 
-}
-div.featured-div{  
+
+
+
+div.featured-div {
+    margin-top: -100px;
     height: 100px;
-    padding-left: 175px;
+    padding-left: 150px;
 }
 
-.flex-container{
+.flex-container {
     display: flex;
     flex-direction: row;
-    flex-wrap:wrap-reverse; 
+    flex-wrap: wrap-reverse;
 }
 
-.diensten{
+.diensten {
     width: 200px;
-    height: 175px; 
+    height: 175px;
     background-color: white;
     color: black;
     font-size: 25px;
@@ -66,77 +76,85 @@ div.featured-div{
     margin: 10px;
 }
 
-.diensten, h3{
+.diensten,
+h3 {
     font-size: 17px;
     text-align: left;
     padding-left: 2px;
     padding-top: 5px;
 }
 
-.diensten, p{
+.diensten,
+p {
     font-size: 12.5px;
     text-align: left;
     padding-left: 10px;
 }
 
-div.blogs-outer{
+div.blogs-outer {
     height: 250px;
 }
 
-div.blogs-outer, .image-2{
+div.blogs-outer,
+.image-2 {
     width: 425px;
     padding-top: 10px;
-    padding-left: 4px; 
+    padding-left: 4px;
     padding-bottom: 10px;
     border-radius: 9px;
 }
 
-.featured-content{
+.featured-content {
     width: 100%;
     height: auto;
     display: flex;
-    flex-direction: row; 
+    flex-direction: row;
 }
 
 
-.item-3, .featured-hoofdtekst
-{   
+.item-3,
+.featured-hoofdtekst {
     font-size: 14px;
 }
-.item3, .featured-tekst{   
+
+.item3,
+.featured-tekst {
     font-size: 12px;
 }
 
-.item-3{
+.item-3 {
     flex-basis: 200px;
     flex-grow: 0;
     flex-shrink: 0;
     height: 300px;
-    margin-left: 25px; 
+    margin-left: 25px;
     margin-top: 10px;
     padding-left: 20px;
     padding-top: 10px;
-    background-color: white; 
+    background-color: white;
 }
 
-.item-3, .bloglijst-header{
-     font-size: 18px;
+.item-3,
+.bloglijst-header {
+    font-size: 18px;
 }
-.item-3 > .bloglijst{
+
+.item-3>.bloglijst {
     font-size: 11.5px;
     padding-top: 10px;
 }
 
-div.sabijn-outer, .image-3{
-     padding-top: 50px;
-     margin-bottom: -110px;
-     width: 650px; 
-     border-radius: 9px;   
+div.sabijn-outer,
+.image-3 {
+    padding-top: 50px;
+    margin-bottom: -110px;
+    width: 650px;
+    border-radius: 9px;
 }
 
-div.sabijn-outer p{
+div.sabijn-outer p {
     font-size: 13px;
-    width: 400px; 
+    width: 400px;
     padding-left: 20px;
     margin-top: -10px;
-} 
+}
