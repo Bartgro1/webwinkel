@@ -67,21 +67,19 @@ div.featured-div {
     background-color: white;
     color: black;
     font-size: 25px;
-    text-align: center;
+    text-align: left;
    
 }
 
-.diensten,
-h3 {  
+.diensten h3 {  
     font-size: 17px;
-    padding-left: 2px;
+    padding-left: 10px;
     padding-top: 5px;
+    padding-bottom: 5px;
 }
 
-.diensten,
-p {
+.diensten p {
     font-size: 12.5px;
-    text-align: left;
     padding-left: 10px;
 }
 
@@ -105,15 +103,15 @@ div.blogs-outer, .image-2 {
 }
 
 
-.item-3,.featured-hoofdtekst {
+.item-2,.featured-hoofdtekst {
     font-size: 14px;
 }
 
-.item3,.featured-tekst {
+.item2,.featured-tekst {
     font-size: 12px;
 }
 
-.item-3 {
+.item-2 {
     flex-basis: 200px;
     flex-grow: 0;
     flex-shrink: 0;
@@ -125,17 +123,17 @@ div.blogs-outer, .image-2 {
     background-color: white;
 }
 
-.item-3,.bloglijst-header {
+.item-2,.bloglijst-header {
     font-size: 18px;
 }
 
-.item-3>.bloglijst {
+.item-2>.bloglijst {
     font-size: 11.5px;
     padding-top: 10px;
 }
 
 div.sabijn-outer,
-.image-3 {
+.image-2 {
     padding-top: 50px;
     margin-bottom: -110px;
     width: 650px;

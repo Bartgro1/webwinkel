@@ -31,7 +31,7 @@ $producten = mysqli_fetch_all($result, MYSQLI_ASSOC);
           authenticiteit, teruggaan naar de basis en het creëren van het leven dat echt bij je past.</p>
       </div>
     </div>
-    <div class="container">
+   <div class="container">
       <div class="featured-div">
         <div class="flex-container">
           <?php foreach ($producten as $product) : ?>
@@ -42,16 +42,9 @@ $producten = mysqli_fetch_all($result, MYSQLI_ASSOC);
           <?php endforeach ?>
         </div>
       </div>
-    </div>
-
-
-
-
-
-
-    <!--
+    
+     <!--
       <div class="blogs-outer">
-
         <div class="featured-content">
           <div class="item-1">
             <img class="image-2" src="Images/Afbeelding2.jpg" alt="">
@@ -79,6 +72,7 @@ $producten = mysqli_fetch_all($result, MYSQLI_ASSOC);
             </ul>
           </div>
         </div>
+      </div>
       </div>
      
         <div class="sabijn-outer">
