@@ -30,16 +30,12 @@ nav ul li a:hover {
 
 nav img{
     height: auto;
-    width: 350px;   
+    width: 320px;   
 }
 div.container{
     width: 960px;
     margin: auto;
 }
-
-
-
-
 
 footer{ 
     height: 100px;   

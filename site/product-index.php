@@ -44,7 +44,6 @@ $producten = mysqli_fetch_all($result, MYSQLI_ASSOC);
         </div>
       </div>
 
-
       <div class="blogs-outer">
         <div class="featured-content">
           <div class="item-1">
@@ -76,7 +75,20 @@ $producten = mysqli_fetch_all($result, MYSQLI_ASSOC);
           </div>
         </div>
       </div>
+
+      <div class="sabijn-outer">
+        <div class="background-img2">
+          <p>
+            Sabijn Arts is psycholoog en lifecoach. Zij heeft al ruim 15 jaar een succesvolle praktijk, waarin zij haar
+            academisch en post-academische psychologische achtergrond combineert met gegrond intuïtie- en energiewerk.
+            Momenteel begeleidt ze jong volwassenen en volwassenen met het helder krijgen van hun koers, vertrouwen op
+            hun intuïtie en innerlijke kracht en het creëren van een leven wat gebaseerd is op wat hen echt gelukkig
+            maakt.
+          </p>
+        </div>
       </div>
+    </div>
+    </div>
 
 
   </main>
