@@ -10,13 +10,15 @@
 <header>  
     
     <div class="container">
-     <img class="image-4" src="Images/header-image.png" alt="">
+    
       <nav>
+         <img  src="Images/header-image.png" alt="">
         <ul>
           <li> <a href="#">Home</a></li>
           <li> <a href="#">Sessies</a></li>
           <li> <a href="#">Retraites</a></li>
           <li> <a href="#">Online</a></li>
+          <li> <a href="#">Gratis</a></li>
           <li> <a href="#">Over Sabijn</a></li>
           <li> <a href="#">Contact</a></li>
         </ul>

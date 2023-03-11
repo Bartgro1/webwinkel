@@ -1,30 +1,24 @@
 header{
     padding-top: 40px;
     height: 100px;
-   
+    margin: auto;
 }
 
-.image-4{
-    width: 250px;
-    height: auto;
-    margin-left: 250px;
-}
 nav{
     display: flex;
-    justify-content: space-between;
-    align-items: left;
-    padding-left: 330px;
-    padding-top: 15px;
-    padding-bottom: 10px;
-    font-size: 15px;
+    justify-content: right;
+    font-size: 19px;
+    gap: 60px;
 }
 nav ul li{
+   
     list-style-type: none;
     display: inline-block;
-    padding: 10px 10px 10px 10px;
+    padding: 5px 5px 5px 5px;
 }
 
 nav ul li a {   
+    
     text-decoration: none;   
     color: #3B282A
 }
@@ -34,19 +28,29 @@ nav ul li a:hover {
     transition: .3s;
 }
 
+nav img{
+    height: auto;
+    width: 350px;   
+}
 div.container{
-    margin: 0px 260px;
+    width: 960px;
+    margin: auto;
 }
 
+
+
+
+
 footer{ 
-    bottom: 0px; 
-    margin-bottom: 10px;
+    height: 100px;   
+    bottom: 0px;
+    margin: auto; 
 }
  
 footer p{
-     line-height: 150px;
-     padding-left: 180px;
-     font-size: 12px;
+     padding-top: 40px;
+     text-align: center;
+     font-size: 15px;
 }
 footer a{
      text-decoration: none;

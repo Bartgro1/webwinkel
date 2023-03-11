@@ -32,29 +32,23 @@ $producten = mysqli_fetch_all($result, MYSQLI_ASSOC);
       </div>
     </div>
     <div class="container">
-
-
-
-
- <div class="featured-div">
-      <div class="flex-container">
-        <?php foreach ($producten as $product) : ?>
-          <div class="diensten">
-            <h3> <?php echo $product["naam"] ?></h3>
-            <p> <?php echo $product["omschrijving"] ?> </p>
-          </div>
-        <?php endforeach ?>
+      <div class="featured-div">
+        <div class="flex-container">
+          <?php foreach ($producten as $product) : ?>
+            <div class="diensten">
+              <h3> <?php echo $product["naam"] ?></h3>
+              <p> <?php echo $product["omschrijving"] ?> </p>
+            </div>
+          <?php endforeach ?>
+        </div>
       </div>
     </div>
 
 
-    </div>
-    
-    
 
 
 
-   
+
     <!--
       <div class="blogs-outer">
 
