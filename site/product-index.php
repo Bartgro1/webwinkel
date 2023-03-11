@@ -31,7 +31,8 @@ $producten = mysqli_fetch_all($result, MYSQLI_ASSOC);
           authenticiteit, teruggaan naar de basis en het creëren van het leven dat echt bij je past.</p>
       </div>
     </div>
-   <div class="container">
+
+    <div class="container">
       <div class="featured-div">
         <div class="flex-container">
           <?php foreach ($producten as $product) : ?>
@@ -42,23 +43,25 @@ $producten = mysqli_fetch_all($result, MYSQLI_ASSOC);
           <?php endforeach ?>
         </div>
       </div>
-    
-     <!--
+
+
       <div class="blogs-outer">
         <div class="featured-content">
           <div class="item-1">
-            <img class="image-2" src="Images/Afbeelding2.jpg" alt="">
-            <h3 class="featured-hoofdtekst">
-              Highly sensitive and feeling overwhelmed? Connect with your values and listen within
-            </h3>
-            <p class="featured-tekst">
-              Do you try to keep up with the pace of life you see around you, working too hard, feeling out of sync
-              with your body & soul?
-            </p>
+            <div class="item-1-content">
+              <img src="Images/Afbeelding2.jpg" alt="">
+              <h3 class="featured-hoofdtekst">
+                Highly sensitive and feeling overwhelmed? Connect with your values and listen within
+              </h3>
+              <p class="featured-tekst">
+                Do you try to keep up with the pace of life you see around you, working too hard, feeling out of sync
+                with your body & soul?
+              </p>
+            </div>
           </div>
           <div class="item-2">
-            <h3 class="bloglijst-header"> Meer Blogs:</h3>
-            <ul class="bloglijst">
+            <h3> Meer Blogs:</h3>
+            <ul>
               <li>Accepting yourself when you are highly sensitive</li>
               <li>liefhebben. Vertrouw jij op je inner voice?</li>
               <li> yourself. Do you trust your inner voice?</li>
@@ -74,19 +77,8 @@ $producten = mysqli_fetch_all($result, MYSQLI_ASSOC);
         </div>
       </div>
       </div>
-     
-        <div class="sabijn-outer">
-          <img class="image-3" src="Images/Afbeelding3.jpg" alt="">
-          <p>
-            Sabijn Arts is psycholoog en lifecoach. Zij heeft al ruim 15 jaar een succesvolle praktijk, waarin zij haar
-            academisch en post-academische psychologische achtergrond combineert met gegrond intuïtie- en energiewerk.
-            Momenteel begeleidt ze jong volwassenen en volwassenen met het helder krijgen van hun koers, vertrouwen op
-            hun intuïtie en innerlijke kracht en het creëren van een leven wat gebaseerd is op wat hen echt gelukkig
-            maakt.
-          </p>
-        </div>
-      </div>
-      -->
+
+
   </main>
   <?php include 'footer.php'; ?>
 
