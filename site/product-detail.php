@@ -45,7 +45,8 @@ $product = mysqli_fetch_assoc($result);
                                     <input type="text">
                                     <hr>
                                 </div>
-                                <div>
+            </form>
+            <div>
     </main>
 
     <?php include 'footer.php'; ?>

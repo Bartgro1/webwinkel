@@ -1,20 +1,62 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
 }
 
+body{
+background-color: gray;
+}
 
+main{
+padding-top: 40px;
+}
 
+form{
+background-color: white;
+}
 
 .container{
-    width: 940px;
-    margin: auto;
+width: 940px;
+margin: auto;
 }
-.blok{
-    display: flex;
-    flex-direction: column;
+.panel{
+padding-top: 40px;
+padding-left: 30px;  
 }
-fieldset{
-    width: 600px;
+.price-options h4{
+font-size: 18px;
+padding-bottom: 20px;
+text-decoration: solid;
 }
+.options-container{
+display: flex;
+flex-direction: column;
+gap: 8px;
+}
+.option-1 input[type=text]{
+width: 400px;
+height: 30px;
+
+}
+
+.option-2 input[type=text]{
+width: 400px;
+height: 30px;
+margin-bottom: 40px;
+}
+
+.option-2 hr{
+margin-bottom: 20px;
+}
+
+.order-summary h4{
+    font-size: 18px;
+    padding-bottom: 20px;
+    text-decoration: solid;
+ }
+ .order-summary .total-price{
+     background-color: gray;
+     width: 650px;
+     margin-bottom: 20px; 
+ }
