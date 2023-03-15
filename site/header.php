@@ -14,7 +14,7 @@
       <nav>
          <img  src="Images/header-image.png" alt="">
         <ul>
-          <li> <a href="#">Home</a></li>
+          <li> <a href="product-index.php">Home</a></li>
           <li> <a href="#">Sessies</a></li>
           <li> <a href="#">Retraites</a></li>
           <li> <a href="#">Online</a></li>

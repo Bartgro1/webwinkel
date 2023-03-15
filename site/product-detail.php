@@ -31,11 +31,21 @@ $product = mysqli_fetch_assoc($result);
     <main>
         <div class="container">
             <form action="">
-                <div class="flex-container">
-                  
-        </form>
-        <div>
-
+                <div class="panel">
+                    <div class="panel-body c-c-k">
+                        <div class="price-options">
+                            <h4> Pricing options</h4>
+                            <div class="options-container">
+                                <div class="option-1">
+                                    <input type="radio">
+                                    <input type="text">
+                                </div>
+                                <div class="option-2">
+                                    <input type="radio">
+                                    <input type="text">
+                                    <hr>
+                                </div>
+                                <div>
     </main>
 
     <?php include 'footer.php'; ?>
