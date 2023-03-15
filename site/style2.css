@@ -81,6 +81,11 @@ div.featured-div {
     padding-left: 10px;
 }
 
+.diensten a{
+    text-decoration: none;
+    color: black;
+}
+
 .blogs-outer{
     padding-top: 20px; 
     
