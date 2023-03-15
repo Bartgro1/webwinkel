@@ -36,6 +36,7 @@ $producten = mysqli_fetch_all($result, MYSQLI_ASSOC);
       <div class="featured-div">
         <div class="flex-container">
           <?php foreach ($producten as $product) : ?>
+            <a href="product-detail.php?id= <?php echo $product['id'] ?>" 
             <div class="diensten">
               <h3> <?php echo $product["naam"] ?></h3>
               <p> <?php echo $product["omschrijving"] ?> </p>
