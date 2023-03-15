@@ -1,7 +1,7 @@
 <?php
 
 
-require 'database';
+require 'database.php';
 
 $id = $_GET['id'];
 
