@@ -24,33 +24,25 @@ margin: auto;
 padding-top: 40px;
 padding-left: 30px;  
 }
-.price-options h4{
+.price h4{
 font-size: 18px;
 padding-bottom: 20px;
 text-decoration: solid;
 }
-.options-container{
-display: flex;
-flex-direction: column;
-gap: 8px;
-}
-.option-1 input[type=text]{
-width: 400px;
-height: 30px;
 
+.order-price{
+  display: flex;
 }
 
-.option-2 input[type=text]{
-width: 400px;
-height: 30px;
-margin-bottom: 40px;
+.order-price .product-prijs{
+  padding-left: 140px;
+  padding-bottom: 20px;
 }
 
-.option-2 hr{
-margin-bottom: 20px;
-}
+
 
 .order-summary h4{
+    padding-top: 20px;
     font-size: 18px;
     padding-bottom: 20px;
     text-decoration: solid;
