@@ -45,6 +45,29 @@ $product = mysqli_fetch_assoc($result);
                                     <input type="text">
                                     <hr>
                                 </div>
+                                <div class="order-summary">
+                                    <h4> Order summary</h4>
+                                    <table>
+                                        <tbody>
+                                            <tr>
+                                                <td class="dynamic-text">Online Journey for HSP.
+                                                    Step 2. </td>
+                                                <td></td>
+                                                <td class="dynamic-text text-right"></td>
+                                            </tr>
+                                            <tr class="redeem-coupon-box"></tr>
+                                            <tr class="coupon-input hide"></tr>
+                                            <tr class="vat-details dynamic-text"></tr>
+                                            <td> VAT @ 21%</td>
+                                            <td></td>
+                                            <td class="text-right"></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <div class="order-summary total-price">
+                                        <p>Total</p>
+                                    </div>
+                                    <hr>
             </form>
             <div>
     </main>
